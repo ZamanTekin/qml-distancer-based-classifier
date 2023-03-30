@@ -24,6 +24,7 @@ circuit.class_q = circuit.q[3]
 
 # Creating the circuit
 qc = QuantumCircuit(circuit.q, circuit.cl)
+print("find me here")
 
 # Step A: Hadamard the ancilla and index quibits
 qc.h(circuit.ancilla_q)
