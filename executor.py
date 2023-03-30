@@ -5,6 +5,8 @@
 3. Print Histograms of outputs
 4. Sort results for table"""
 
+import classifier
+
 # x' Simulation:
 # initiate an instance of the distance-based classifier
 classifier = QuantumCompML()
